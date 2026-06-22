@@ -51,13 +51,10 @@ function generateCard(job) {
     mainPanel.append($card);
 
     mainPanel.append($("<hr/>"));
-    console.log(job);
 }
 
 $.getJSON("portfolio.json", function(json) {
-
     for(var job of json.jobs) {
         generateCard(job);
     }
-    console.log(json);
 });
