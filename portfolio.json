@@ -5,7 +5,7 @@
             "year": 2025,
             "company": "Dotemu",
             "img": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/absolum/16x9_Absolum_image1600w.jpg",
-            "platforms": ["Xbox Series (GDK)", "Windows Store (GDK)", "PS4", "PS5", "Nintendo Switch"],
+            "platforms": ["Nintendo Switch", "PS4", "PS5", "Xbox Series (GDK)", "Windows Store (GDK)"],
             "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "SDL3", "DirectX 12", "NVN", "AGC", "GNM"],
             "bulletpoints": [
                 "Ported FNA/SDL3 to PS4, including a new graphical backend",
@@ -21,7 +21,7 @@
             "year": 2025,
             "company": "Dotemu",
             "img": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/marvelcosmicinvasion_1/16x9_MarvelCosmicInvasion_image1600w.jpg",
-            "platforms": ["Xbox Series (GDK)", "Windows Store (GDK)", "PS4", "PS5", "Nintendo Switch"],
+            "platforms": ["Nintendo Switch", "PS4", "PS5", "Xbox Series (GDK)", "Windows Store (GDK)"],
             "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "SDL3", "DirectX 12", "Vulkan", "AGC", "GNM"],
             "bulletpoints": [
                 "Ported FNA/SDL3 to PS4, including a new graphical backend",
@@ -73,7 +73,7 @@
             "year": 2024,
             "company": "Exalted Studio",
             "img": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/bighelmetheroes/2x1_BigHelmetHeroes_image1600w.jpg",
-            "platforms": ["Xbox Series (GDK)", "PS5", "Nintendo Switch"],
+            "platforms": ["Nintendo Switch", "PS5", "Xbox Series (GDK)"],
             "techs": ["C++", "Unreal Engine 5"],
             "bulletpoints": [
                 "Optimization to target 30fps on a Nintendo Switch 1 in handheld at full resolution",
@@ -86,7 +86,7 @@
             "year": 2023,
             "company": "PUNKCAKE Délicieux",
             "img": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_ShotgunKingTheFinalCheckmate_image1600w.jpg",
-            "platforms": ["Xbox One (GDK)", "Windows Store (GDK)", "PS4", "PS5", "Nintendo Switch"],
+            "platforms": ["Nintendo Switch", "PS4", "PS5", "Xbox One (GDK)", "Windows Store (GDK)"],
             "techs": ["C++", "Lua", "DirectX 12", "NVN", "AGC", "GNM"],
             "bulletpoints": [
                 "Restructured the in-house engine to be extensible and modular",
