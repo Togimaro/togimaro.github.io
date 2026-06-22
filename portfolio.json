@@ -1,93 +1,10 @@
 {
     "jobs": [
         {
-            "name": "Warhammer 40,000: Mechanicus",
-            "year": 2019,
-            "company": "Bulwark Studios",
-            "platforms": ["Xbox One (XDK)"],
-            "techs": ["C#", "Unity"],
-            "bulletpoints": [
-                "Implemented Xbox One specific features on Unity",
-                "Optimization to run at 60fps on Xbox One"
-            ]
-        },
-        {
-            "name": "Double Kick Heroes",
-            "year": 2020,
-            "company": "Headbang Club",
-            "platforms": ["Xbox One (XDK)", "Windows Store (UWP)"],
-            "techs": ["Haxe", "C++"],
-            "bulletpoints": [
-                "Added a Xbox & UWP backend on a in-house engine",
-                "Ported hashlink to the Universal Windows Platform",
-                "Ported the online features (including user-generated content) to be XRs compatible"
-            ]
-        },
-        {
-            "name": "Pile Up! Box by Box",
-            "year": 2021,
-            "company": "Seed by Seed",
-            "platforms": ["Xbox One (XDK)"],
-            "techs": ["C#", "Unity"],
-            "bulletpoints": [
-                "Level optimization to target 60fps with the Lightweight Render Pipeline",
-                "Implemented hot-join compatibility with Xbox Live user account (including achievement handling and save)"
-            ]
-        },
-        {
-            "name": "Windjammers 2",
-            "year": 2022,
-            "company": "Dotemu",
-            "platforms": ["Xbox One (GDK)", "Windows Store (GDK)"],
-            "techs": ["C++", "DirectX 12"],
-            "bulletpoints": [
-                "Implemented a DirectX 12 backend on a in-house engine",
-                "Implemented a new input system on WinGDK with DirectInput to support more controller",
-                "Helped making the online-crossplay XRs compatible"
-            ]
-        },
-        {
-            "name": "Shotgun King: The Final Checkmate",
-            "year": 2023,
-            "company": "PUNKCAKE Délicieux",
-            "platforms": ["Xbox One (GDK)", "Windows Store (GDK)", "PS4", "PS5", "Nintendo Switch"],
-            "techs": ["C++", "Lua", "DirectX 12", "NVN", "AGC", "GNM"],
-            "bulletpoints": [
-                "Restructured the in-house engine to be extensible and modular",
-                "Implemented 4 different graphical backends for console support",
-                "Implemented gamepad controller on a mouse-only game",
-                "Developped new content (tutorial, UI, accessibility features) exclusive to the console port"
-            ]
-        },
-        {
-            "name": "Big Helmet Heroes",
-            "year": 2024,
-            "company": "Exalted Studio",
-            "platforms": ["Xbox Series (GDK)", "PS5", "Nintendo Switch"],
-            "techs": ["C++", "Unreal Engine 5"],
-            "bulletpoints": [
-                "Optimization to target 30fps on a Nintendo Switch 1 in handheld at full resolution",
-                "Implemented single joy-con control",
-                "Ported a demo on Xbox Series with save data compatibility and achievement unlocking when buying the full game"
-            ]
-        },
-        {
-            "name": "MonoGame GDK",
-            "year": 2024,
-            "company": "MonoGame Foundation",
-            "platforms": ["Xbox Series (GDK)", "Windows Store (GDK)", "Open Source"],
-            "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "DirectX 12"],
-            "bulletpoints": [
-                "Implemented a new DirectX 12 backend for the MonoGame framework",
-                "Used NativeAOT on Xbox Series to run C# code natively",
-                "Port of an entire engine with compatibility with already shipped game in mind",
-                "Open sourced for developper with an NDA signed with Microsoft"
-            ]
-        },
-        {
             "name": "Absolum",
             "year": 2025,
             "company": "Dotemu",
+            "img": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/absolum/16x9_Absolum_image1600w.jpg",
             "platforms": ["Xbox One (GDK)", "Windows Store (GDK)", "PS4", "PS5", "Nintendo Switch"],
             "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "SDL3", "DirectX 12", "NVN", "AGC", "GNM"],
             "bulletpoints": [
@@ -103,6 +20,7 @@
             "name": "MARVEL Cosmic Invasion",
             "year": 2025,
             "company": "Dotemu",
+            "img": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/marvelcosmicinvasion_1/16x9_MarvelCosmicInvasion_image1600w.jpg",
             "platforms": ["Xbox One (GDK)", "Windows Store (GDK)", "PS4", "PS5", "Nintendo Switch"],
             "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "SDL3", "DirectX 12", "Vulkan", "AGC", "GNM"],
             "bulletpoints": [
@@ -113,8 +31,9 @@
         },
         {
             "name": "SDL3 PS4",
-            "year": 2026,
-            "company": "Graphite Lab",
+            "year": 2025,
+            "company": "",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/1/16/Simple_DirectMedia_Layer%2C_Logo.svg?uselang=fr",
             "platforms": ["PS4", "Open Source"],
             "techs": ["C++", "SDL3", "GNM"],
             "bulletpoints": [
@@ -125,13 +44,105 @@
         },
         {
             "name": "FNA PS4",
-            "year": 2026,
+            "year": 2025,
             "company": "",
+            "img": "https://avatars.githubusercontent.com/u/8844437?s=280&v=4",
             "platforms": ["PS4", "Open Source"],
             "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "SDL3", "GNM"],
             "bulletpoints": [
                 "Ported the FNA NativeAOT backend to PS4",
                 "Open sourced for developper with an NDA signed with Sony"
+            ]
+        },
+        {
+            "name": "MonoGame GDK",
+            "year": 2024,
+            "company": "MonoGame Foundation",
+            "img": "https://monogame.net/images/blog/cover/monogame_foundation.png",
+            "platforms": ["Xbox Series (GDK)", "Windows Store (GDK)", "Open Source"],
+            "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "DirectX 12"],
+            "bulletpoints": [
+                "Implemented a new DirectX 12 backend for the MonoGame framework",
+                "Used NativeAOT on Xbox Series to run C# code natively",
+                "Port of an entire engine with compatibility with already shipped game in mind",
+                "Open sourced for developper with an NDA signed with Microsoft"
+            ]
+        },
+        {
+            "name": "Big Helmet Heroes",
+            "year": 2024,
+            "company": "Exalted Studio",
+            "img": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/bighelmetheroes/2x1_BigHelmetHeroes_image1600w.jpg",
+            "platforms": ["Xbox Series (GDK)", "PS5", "Nintendo Switch"],
+            "techs": ["C++", "Unreal Engine 5"],
+            "bulletpoints": [
+                "Optimization to target 30fps on a Nintendo Switch 1 in handheld at full resolution",
+                "Implemented single joy-con control",
+                "Ported a demo on Xbox Series with save data compatibility and achievement unlocking when buying the full game"
+            ]
+        },
+        {
+            "name": "Shotgun King: The Final Checkmate",
+            "year": 2023,
+            "company": "PUNKCAKE Délicieux",
+            "img": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_ShotgunKingTheFinalCheckmate_image1600w.jpg",
+            "platforms": ["Xbox One (GDK)", "Windows Store (GDK)", "PS4", "PS5", "Nintendo Switch"],
+            "techs": ["C++", "Lua", "DirectX 12", "NVN", "AGC", "GNM"],
+            "bulletpoints": [
+                "Restructured the in-house engine to be extensible and modular",
+                "Implemented 4 different graphical backends for console support",
+                "Implemented gamepad controller on a mouse-only game",
+                "Developped new content (tutorial, UI, accessibility features) exclusive to the console port"
+            ]
+        },
+        {
+            "name": "Windjammers 2",
+            "year": 2022,
+            "company": "Dotemu",
+            "img":"https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Windjammers2_image1600w.jpg",
+            "platforms": ["Xbox One (GDK)", "Windows Store (GDK)"],
+            "techs": ["C++", "DirectX 12"],
+            "bulletpoints": [
+                "Implemented a DirectX 12 backend on a in-house engine",
+                "Implemented a new input system on WinGDK with DirectInput to support more controller",
+                "Helped making the online-crossplay XRs compatible"
+            ]
+        },
+        {
+            "name": "Pile Up! Box by Box",
+            "year": 2021,
+            "company": "Seed by Seed",
+            "img":"https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_PileUpBoxByBox_image1600w.jpg",
+            "platforms": ["Xbox One (XDK)"],
+            "techs": ["C#", "Unity"],
+            "bulletpoints": [
+                "Level optimization to target 60fps with the Lightweight Render Pipeline",
+                "Implemented hot-join compatibility with Xbox Live user account (including achievement handling and save)"
+            ]
+        },
+        {
+            "name": "Double Kick Heroes",
+            "year": 2020,
+            "company": "Headbang Club",
+            "img":"https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_DoubleKickHeroes_image1600w.jpg",
+            "platforms": ["Xbox One (XDK)", "Windows Store (UWP)"],
+            "techs": ["Haxe", "C++"],
+            "bulletpoints": [
+                "Added a Xbox & UWP backend on a in-house engine",
+                "Ported hashlink to the Universal Windows Platform",
+                "Ported the online features (including user-generated content) to be XRs compatible"
+            ]
+        },
+        {
+            "name": "Warhammer 40,000: Mechanicus",
+            "year": 2019,
+            "company": "Bulwark Studios",
+            "img":"https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Warhammer40000Mechanicus_image1600w.jpg",
+            "platforms": ["Xbox One (XDK)"],
+            "techs": ["C#", "Unity"],
+            "bulletpoints": [
+                "Implemented Xbox One specific features on Unity",
+                "Optimization to run at 60fps on Xbox One"
             ]
         }
     ]
