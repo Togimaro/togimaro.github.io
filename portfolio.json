@@ -145,5 +145,33 @@
                 "Optimization to run at 60fps on Xbox One"
             ]
         }
+    ],
+    "teaching": [
+        {
+            "name": "Graphics Programming 101 (6-day course)",
+            "year": "2025-now",
+            "company": "CNAM ENJMIN",
+            "img":"https://i.ytimg.com/vi/OsJn5hwjmhQ/maxresdefault.jpg",
+            "techs": ["C++", "DirectX 11"],
+            "bulletpoints": [
+                "Explanation of the GPU pipeline, from mesh to pixel",
+                "3D geometry course (Vector math, Complex number & quaternion, Transform matrix)",
+                "Introduction and application of the DirectX 11 API",
+                "Practical work throughout the week on a basic Minecraft clone written from scratch in C++"
+            ]
+        },
+        {
+            "name": "Game Programming course for 2nd years student (all year round)",
+            "year": "2019-2022",
+            "company": "Human Academy Europe",
+            "img":"https://media.licdn.com/dms/image/v2/C4E0BAQGYI_d3aZIzKg/company-logo_200_200/company-logo_200_200/0/1630652424842/human_academy_europe_logo?e=2147483647&v=beta&t=d7lj1MqWMYZYpU-gJpSWVm2DIyNwGV4Th6rdH4kh4os",
+            "techs": ["C#", "Unity"],
+            "bulletpoints": [
+                "Advanced algorithm course (Data structure, Time complexity, Recursive algorithm)",
+                "3D geometry course (Vector math, Complex number & quaternion, Transform matrix)",
+                "Rendering 101 (Mesh anatomy, Shaders, Deep dive into Unity render pipelines & tools)",
+                "AI & Game theory course (FSMs, Behavior Tree, Minimax applied to basic games)"
+            ]
+        }
     ]
 }
