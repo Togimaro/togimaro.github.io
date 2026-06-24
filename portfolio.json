@@ -8,10 +8,11 @@
             "platforms": ["Nintendo Switch", "PS4", "PS5", "Xbox Series (GDK)", "Windows Store (GDK)"],
             "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "SDL3", "DirectX 12", "NVN", "AGC", "GNM"],
             "bulletpoints": [
-                "Ported FNA/SDL3 to PS4, including a new graphical backend",
+                "Worked on the port for all console platforms (co-dev with Seaven Studio)",
+                "Ported FNA/SDL3 to PS4, including a new graphical backend and runtime",
+                "Ported FNA3D to NVN to replace the existing Vulkan backend to gain perfomance on Nintendo Switch",
                 "Level optimization to target 60fps on Nintendo Switch at full resolution",
                 "Implemented level of detail to reduce overdraw and texture atlasing to optimize batching",
-                "Replaced the Vulkan backend of SDL3 with NVN to gain perfomance on Nintendo Switch",
                 "Implemented online-crossplay with console requirements in mind",
                 "Worked on MARVEL Cosmic Invasion (also by Dotemu) in parallel, implemented a consistant build pipeline between productions"
             ]
@@ -24,7 +25,8 @@
             "platforms": ["Nintendo Switch", "PS4", "PS5", "Xbox Series (GDK)", "Windows Store (GDK)"],
             "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "SDL3", "DirectX 12", "Vulkan", "AGC", "GNM"],
             "bulletpoints": [
-                "Ported FNA/SDL3 to PS4, including a new graphical backend",
+                "Worked on the port for all console platforms (co-dev with Seaven Studio)",
+                "Ported FNA/SDL3 to PS4, including a new graphical backend and runtime",
                 "Ensured the existing online-crossplay system was compatible with console requirements",
                 "Worked on Absolum (also by Dotemu) in parallel, implemented a consistant build pipeline between productions"
             ]
@@ -62,9 +64,9 @@
             "platforms": ["Xbox One (GDK)", "Xbox Series (GDK)", "Windows Store (GDK)", "Open Source"],
             "techs": ["C#", "NativeAOT", "XNA/FNA/MonoGame", "C++", "DirectX 12"],
             "bulletpoints": [
+                "Ported an entire engine with compatibility with already shipped game in mind",
                 "Implemented a new DirectX 12 backend for the MonoGame framework",
                 "Used NativeAOT on Xbox to run C# code natively",
-                "Port of an entire engine with compatibility with already shipped game in mind",
                 "Open sourced for developper with an NDA signed with Microsoft"
             ]
         },
@@ -76,6 +78,7 @@
             "platforms": ["Nintendo Switch", "PS5", "Xbox Series (GDK)"],
             "techs": ["C++", "Unreal Engine 5"],
             "bulletpoints": [
+                "Ported the game on all console platforms",
                 "Optimization to target 30fps on a Nintendo Switch 1 in handheld at full resolution",
                 "Implemented single joy-con control",
                 "Ported a demo on Xbox Series with save data compatibility and achievement unlocking when buying the full game"
@@ -89,6 +92,7 @@
             "platforms": ["Nintendo Switch", "PS4", "PS5", "Xbox One (GDK)", "Windows Store (GDK)"],
             "techs": ["C++", "Lua", "DirectX 12", "NVN", "AGC", "GNM"],
             "bulletpoints": [
+                "Ported the game on all console platforms",
                 "Restructured the in-house engine to be extensible and modular",
                 "Implemented 4 different graphical backends for console support",
                 "Implemented gamepad controller on a mouse-only game",
@@ -103,6 +107,7 @@
             "platforms": ["Xbox One (GDK)", "Windows Store (GDK)"],
             "techs": ["C++", "DirectX 12"],
             "bulletpoints": [
+                "Ported the game on GDK",
                 "Implemented a DirectX 12 backend on a in-house engine",
                 "Implemented a new input system on WinGDK with DirectInput to support more controller",
                 "Helped making the online-crossplay XRs compatible"
@@ -116,6 +121,7 @@
             "platforms": ["Xbox One (XDK)"],
             "techs": ["C#", "Unity"],
             "bulletpoints": [
+                "Ported the game on Xbox One",
                 "Level optimization to target 60fps with the Lightweight Render Pipeline",
                 "Implemented hot-join compatibility with Xbox Live user account (including achievement handling and save)"
             ]
@@ -128,6 +134,7 @@
             "platforms": ["Xbox One (XDK)", "Windows Store (UWP)"],
             "techs": ["Haxe", "C++"],
             "bulletpoints": [
+                "Ported the game on Xbox One & Windows Store (PC Game Pass)",
                 "Added a Xbox & UWP backend on a in-house engine",
                 "Ported hashlink to the Universal Windows Platform",
                 "Ported the online features (including user-generated content) to be XRs compatible"
@@ -141,6 +148,7 @@
             "platforms": ["Xbox One (XDK)"],
             "techs": ["C#", "Unity"],
             "bulletpoints": [
+                "Ported the game on Xbox One",
                 "Implemented Xbox One specific features on Unity",
                 "Optimization to run at 60fps on Xbox One"
             ]
